@@ -1,0 +1,430 @@
+[
+  {
+    "id": 1,
+    "question": "Vad är HTML och CSS? Vad används dessa till och vad är skillnaden mellan dem?",
+    "answer": "HTML är ett så kallat “markup language” som strukturerar innehållet på webbsidor. Det talar om för webbläsaren vilka element det är som ska visas. CSS håller istället i stylingen, CSS kod talar om hur elementen som skapas med CSS ska placeras och se ut. HTML är själva stommen med grova element medans CSS är ytlagret med färger och former.",
+    "language": [
+      "CSS",
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 2,
+    "question": "Vad finns det för layouttekniker i CSS? Ange både moderna och föregångare. Vad skiljer dem åt, kan de kombineras?",
+    "answer": "När man pratar om traditionella tekniker så handlar det ofta om tekniker som float, inline-block och tabbeller. Med modernare CSS layouts så är det oftast flexbox och grid som det syftas på. Dessa två ger överlag betydligt bättre kontroll och flexibilitet när det kommer till att positionera elementen på sidan. Flexbox är utmärkt för att skapa flexibla endimensionella layouter medans grid hanterar tvådimensionella layouter med hjälp av rader och kolumner.\n\nDet går att kombinera dem men de modernare metoderna är generellt att föredra i nya projekt. Speciellt Float är något som man bör undvika. De äldre metorderna kan dock var användbara som en “backup” version för att stödja äldre webbläsare.",
+    "language": [
+      "CSS"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 3,
+    "question": "Vad är JavaScript? Vad kan det användas till inom webb-frontend?",
+    "answer": "Om HTML är skelettet och CSS är utseendet så är JavaScript motor och styrsystem. Det är ett programmeringsspråk som används för att skapa moderna, dynamiska och interaktiva hemsidor. JS skapar den funktionalitet som skiljer en app från en statisk hemsida. Det tillåter avancerade applikationer med bland annat real-tids uppdateringar, animationer, interaktiva spel och mycket mer.",
+    "language": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 4,
+    "question": "Vad är XML? Vilka samband finns det mellan XML & JSON samt mellan XML och HTML?",
+    "answer": "XML är ett format för att strukturera data med anpassade taggar. Dess primära användninsområde är att lagra och överföra data mellan system. JSON är ett lättviktsformat för data och dataöverföring. Det är också lättare att läsa och hantera för JS än XML.\n\nXML är, likt HTML, ett markup language som använder sig av en tag-baserad struktur men skillnaden är att XML främst används för att beskriva data medans HTML visar information. På senare tid har XML tappat i popularitet medans JSON stigit pga dess effektivitet och läsbarhet.",
+    "language": [
+      "Git",
+      "HTML",
+      "JSON",
+      "XML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 5,
+    "question": "Vad menas med tillgänglighet när det kommer till digitala medier och mer specifikt webbplatser och webbtjänster?",
+    "answer": "Att tillgänglighetsanpassa webbinnehåll handlar om att göra det tillgängligt för alla och då se till att även personer med olika former av funktionsnedsättningar kan tillgodogöra sig hela innehållet. Det handlar om att använda sig av semantiska element som gör innehållet tillgängligt för “screen readers”. Man bör också lägga till bildbeskrivningar i form av alt-taggar och se till att hålla en god färgkontrast mellan exempelvis text och bakgrund. Därtill bör saker som tangentbordsnavigation möjliggöras.",
+    "language": [
+      "Git"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 6,
+    "question": "Vad är metadata i allmänhet? Och vad menas med metadata för exempelvis Google eller sociala medier inom HTML?",
+    "answer": "Metadata är information om data, vilket låter sökmotorer som Google lättare spindla och indexera innehållet. Det ger information om vad webbsidan innehåller, nyckelord och bildbeskrivningar, meta texter osv. Väldigt viktigt för att hemsidor ska dyka upp i sökresultaten och generera organisk trafik.",
+    "language": [
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 7,
+    "question": "Hur är internet och mer specifikt webben uppbyggd rent teknisk? En övergripande förklaring räcker bra.",
+    "answer": "Internet är ett globalt nätverk som kopplar ihop datorer och servrar över hela världen. Datorerna pratar med varandra med hjälp av standardprotokoll som HTTP och HTTPS, vilket gör att vi kan ladda webbsidor och dela data. När du använder en webbläsare, fungerar den som en klient som ber en server om information, och servern skickar sedan tillbaka innehållet du vill se. Allt detta sköts genom en massa teknik i bakgrunden, som routrar, switchar och kablar, medan DNS – domännamnssystemet – översätter lättlästa webbadresser till de IP-adresser som datorerna förstår.",
+    "language": [
+      "DOM"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 8,
+    "question": "Var är HTTP-protokollet och hur fungerar det i grova drag?",
+    "answer": "HTTP står för HyperText Transfer Protocol och används för att överföra data mellan webbläsare och servrar på webben. När webbläsaren pingar en sida så skickas en HTTP förfrågan till servern som sen svarar med det som efterfrågas i form av exempelvis en HTML sida. Protokollet är stateless och varje begäran behandlas oberoende även om cookies kan användas för att upprätthålla sammanhanget.",
+    "language": [
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 9,
+    "question": "Vad menas med Frontend och Backend och hur hänger det samman med webben och HTTP-protokollet?",
+    "answer": "Precis som det låter så är frontend en applikations framsida medans backend är dess baksida. Frontend är det som användaren interagerar med och byggs generellt sett med HTML, CSS och JS. Backend utgör serverdelen av koden vilket inkluderar datalagring och affärslogik. Kommunikationen mellan de två sker ofta med hjälp av HTTP (eller HTTPS som är en säkrare version). Backend tillhandahåller API´er och tjänster som frontend sen presenterar för användare och låter dem interagera med. Ihop skapar de en komplett och dynamisk hemsida eller applikation.",
+    "language": [
+      "API",
+      "CSS",
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 10,
+    "question": "Vad finns det som kan påverka prestanda på webbplatser?",
+    "answer": "De vanligaste sakerna som påverkar prestanda är saker som svarstid för servrar och storlekar på filer så som kod och bilder. För att reducera svarstid på internationella hemsidor kan det vara värt att använda sig av ett CDN (content delivery network) som drar ned den. När det gäller filstorlek till kod gäller det att strukturera den på ett smart sätt som minimerar mängden kod och ser till att den exekveras effektivt (reducerar mängd anrop m.m). För filer ska optimerade format användas i första hand ex. webp.",
+    "language": [],
+    "level": "beginner"
+  },
+  {
+    "id": 11,
+    "question": "Vad innebär responsiv design och mobilanpassning av webbplatser?",
+    "answer": "Responsiv design handlar om att se till att webbplatser anpassar sig efter skärmstorlekar och mobilanpassning är en stor del av detta. Elementen på hemsidan kan omorganiseras och stylas om för att passa in bättre för olika stora skärmar. Fonter kan krympas eller ökas, navigationer kan döljas bakum “burger menus” och bildstorlekar ändras. Allt för att innehållet ska kunna konsumeras på ett snyggt sätt med olika enheter och ge en god användarupplevelse. Eftersom mobiler allt mer blir det primära sättet personer navigerar på internet så blir det allt vanligare med s.k mobilefirst, där layout i förstahand konstrueras för mobiler.",
+    "language": [],
+    "level": "beginner"
+  },
+  {
+    "id": 12,
+    "question": "Vad är versionshantering och GIT? Vad är fördelarna med att använda det?",
+    "answer": "Verisionshantering spårar ändringar i kod i olika upplagor och låter utvecklare backa koden till tidigare versioner. Flera utvecklare kan också samtidigt arbeta med olika versioner av koden, olika “branches”. Det underlättar och ger utvecklare tid att ta fram och testa sig till stabila uppdateringar innan koden “pushas” till live versionen. Live versionen kan hela tiden hållas stabil medans nya versioner kan experimenteras med utan att de stör varandra.\n\nWebbutveckling kan till en början verka vara väldigt komplicerat, särskilt när man blir bombad med tekniska begrepp och termer. Men egentligen behöver det inte vara så komplicerat att komma igång om man bryter ned det i lättförståeliga delar. Nu tar vi en titt på de tre vanligaste språken på webben samt hur en webbläsare ser till att du kan surfa runt på den.",
+    "language": [
+      "Git"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 14,
+    "question": "HTML - Strukturens grund",
+    "answer": "HTML, står för HyperText Markup Language och är själva grunden för alla webbsidor. Tänk på HTML som en husstomme. Utan en stabil grund skulle inte huset hålla ihop. HTML används för att skapa och strukturera innehållet på en webbsida. Det bestämmer vilka element som ska finnas med. Saker som rubriker, paragrafer, listor, bilder, länkar, tabeller skapas alla med HTML.\n\nHTML definierar strukturen på sidan. Varje element, såsom ett stycke eller en bild, markeras med \"taggar\". Exempelvis <h1> för rubriker, <p> för paragrafer och <img> för bilder.\n\nGenom att använda rätt taggar (exempelvis <header>, <nav>, <article>, <footer>) kan man se till att “beskriva” innehållet för skärmläsare och sökmotorer vilket ser till att göra det mer tillgängligt.\n\nHTML är alltså själva \"skelettet\" för en webbsida - den berättar var och hur allt ska placeras, men den bestämmer inte hur saker ser ut.",
+    "language": [
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 15,
+    "question": "Vad är CSS och hur används det för utseende och design?",
+    "answer": "CSS står för Cascading Style Sheets. Om HTML är stommen så kan vi säga att CSS är färgerna och designen på huset. Med CSS kan du bestämma hur HTML-elementen ska se ut.\n\nDu kan bestämma färger, textstorlek samt typ, bildstorlek och utrymmen mellan olika element.\n\nCSS används för att organisera hur elementen placeras på sidan, exempelvis genom grid-system, flexbox och andra layout-tekniker.\n\nMed CSS kan du se till att din hemsida anpassar sig efter storleken på besökarens skärm, så att den fungerar bra både på datorer, surfplattor och mobiler.\n\nCSS ger alltså webbdesignen dess utseende. Det separerar innehållet från presentationen, gör det enkelt att underhålla och ändra designen.",
+    "language": [
+      "CSS",
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 16,
+    "question": "Vad är JavaScript och hur används det för interaktivitet och dynamik?",
+    "answer": "JavaScript är programmeringsspråket som gör en webbsida levande. Om HTML är stommen och CSS är färgen, kan vi säga att JavaScript är motorn och styrsystemet som får allt att fungera.\n\nJavaScript kan användas för att göra saker på interaktiva. Det innebär att sidan kan svara på att användare klickar, matar in text eller scrollar på den. Exempelvis kan den visa eller dölja information, validera formulär, eller skapa roliga animationer.\n\nMed JavaScript kan du ladda in nytt innehåll utan att behöva ladda om hela sidan, vilket gör det smidigare för användaren att interagera.\n\nJavaScript kan även användas för mer komplexa saker som spel, kalkylatorer eller interaktiva diagram. Koden kan också prata med servrar för att hämta data i realtid.\n\nJavaScript transformerar hemsidan till en app och i kombination med CSS och HTML får du en komplett webbsida med strukturerat, snyggt och interaktivt innehåll.",
+    "language": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 17,
+    "question": "Hur fungerar en webbläsare?",
+    "answer": "En webbläsare (som ex. Chrome) är ett program som tolkar och visar innehållet på webben. Att förstå den gör det lättare att förstå hur nätet fungerar.",
+    "language": [],
+    "level": "beginner"
+  },
+  {
+    "id": 18,
+    "question": "Requests och HTTP-protokoll",
+    "answer": "HTTP är ett protokoll som bestämmer hur meddelanden formateras och överförs på webben.\n\nNär du skriver in en webbadress (URL) i webbläsaren skickas en begäran till en server via HTTP-protokollet (HyperText Transfer Protocol). Webbläsaren kan exempelvis fråga efter en specifik sida.\n\nServern tar sen emot begäran och skickar tillbaka ett svar, oftast i form av HTML, CSS och JavaScript-filer. Vid problem skickas istället en HTTP kod ex. 404 (not found) eller 503 (service unavailable).",
+    "language": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 19,
+    "question": "Rendering - Översättning av kod",
+    "answer": "När webbläsaren har tagit emot koden börjar den sen att “rendera sidan, vilket innebär att den översätter koden till något du kan se och interagera med. Processen går till ungefär så här:\n\nWebbläsaren börjar med att läsa HTML-dokumentet och bygger ett sk. “DOM-träd” (Document Object Model). Detta träd representerar strukturen på sidan och alla element i den.\n\nParallellt med HTML-parsning börjar webbläsaren ladda ner och tolka CSS-filerna. Den skapar ett till träd som innehåller all styling som ska tillämpas på elementen.\n\nEfter att både DOM- och CSS-träden har skapats, kombinerar webbläsaren dessa. Resultatet är en rendering som innehåller alla de objekt som ska visas på skärmen, med information om både struktur och stil.\n\nNästa steg är layouten, där webbläsaren beräknar exakt var varje element ska placeras på sidan. Detta innebär att den räknar ut positioner, storlekar och avstånd.\n\nNär layouten är klar börjar webbläsaren måla ut (rendera) innehållet på skärmen. Varje del av sidan ritas ut med rätt färger, typsnitt och styling.",
+    "language": [
+      "CSS",
+      "DOM",
+      "Git",
+      "HTML"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 20,
+    "question": "JavaScript i webbläsare",
+    "answer": "När HTML och CSS har hanterats, kommer JavaScript in i bilden. Här sker följande:\n\nWebbläsaren hittar <script>-taggar i HTML-dokumentet och laddar JavaScript-filer som dessa länkar till. Denna kod kickar igång, vilket kan påverka DOM-träd eller ändra layout.\n\nJavaScript kan manipulera HTML så väl som CSS, eller till och med hämta in ny data via en API.\n\nJavaScript körs i en \"single-threaded\" miljö, vilket innebär att den bara kan göra en sak i taget. För att hantera händelser som sker samtidigt använder den en process som kallas event loop. Detta gör att sidan kan svara på användarens interaktioner utan att frysa.",
+    "language": [
+      "API",
+      "CSS",
+      "DOM",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 21,
+    "question": "Backend vs. Frontend",
+    "answer": "Frontend är delen av en webbsida som användaren ser och interagerar med - alltså HTML, CSS och JavaScript. Allt som händer i webbläsaren är en del av detta.\n\nBackend består av servrar, databaser och logik som körs på servern. När en webbsida behöver ny data begär den detta från servern. Backend ansvarar för att hämta, bearbeta och skicka tillbaka data till frontend.\n\nHTTP-protokollet utgör gränssnittet mellan frontend och backend. När webbläsaren skickar en HTTP-begäran, hanterar backend begäran och skickar tillbaka ett svar som webbläsaren sedan tolkar och renderar.",
+    "language": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 23,
+    "question": "Tillgänglighet",
+    "answer": "Webben ska vara tillgänglig för alla och det innebär att personer med olika typer av funktionsnedsättningar ska kunna navigera och interagera med en webbsida smidigt. Detta kan underlättas med hjälp av följande.\n\nGenom att använda semantiska taggar (t.ex. <nav>, <header>, <main>, <footer>) kan skärmläsare förstå strukturen på sidan. Avgörande för personer med synnedsättning.\n\nVarje bild bör ha en alt-text som beskriver den och gör det möjligt för skärmläsare att berätta för användaren vad bilden innehåller.\n\nSe till att text och bakgrunder har tillräckligt hög kontrast, så att personer med nedsatt färgseende eller synproblem lätt kan läsa innehållet.\n\nWebbplatser bör vara utformade så att de kan navigeras med tangentbordet, inte bara med musen. Detta är viktigt för användare som inte kan använda en mus.\n\nGenom att använda så kallade ARIA roller kan man ge information om hur olika element ska tolkas av hjälpmedel, ex. vilka delar som är interaktiva vs. dekorativa.",
+    "language": [],
+    "level": "beginner"
+  },
+  {
+    "id": 24,
+    "question": "Se till att sidan laddar snabbt",
+    "answer": "Prestanda handlar om hur snabbt och smidigt en webbsida laddar och det finns flera aspekter som påverkar detta.\n\nOm en webbsida består av många stora filer (bilder, kod) kan detta göra att sidan laddar långsamt. Genom att optimera kod och använda rätt bildformat (ex. webp) kan sidan optimeras för snabbare prestanda.\n\nWebbläsare kan spara vissa filer lokalt så att de inte behöver laddas om varje gång sidan besöks. Detta kallas för caching och kan avsevärt minska laddningstiden.\n\nAtt ladda JavaScript på rätt sätt kan göra att sidan kan visas snabbare för användaren. Man laddar den “asynkront” vilket betyder att det inte blockerar rendering av sidan medan det laddas.\n\nGenom att ta bort onödiga tecken, mellanslag och kommentarer från koden kan du minska filstorleken utan att påverka funktionen. Detta kallas minifiering.\n\nServrarna och nätverksanslutningen spelar också en roll i laddningstid Om servern svarar långsamt kommer sidan naturligt att ladda långsammare. Se till att ha tillräcklig hosting och ett bra CDN för internationella hemsidor.",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 25,
+    "question": "Kopplingen mellan kod, tillgänglighet och prestanda",
+    "answer": "Kodkvaliteten och hur teknikerna används påverkar både tillgängligheten och prestanda.\n\nGenom att skriva strukturerad HTML med semantiska taggar underlättar du för sökmotorer och hjälpmedel samt låter webbläsare rendera sidan snabbare.\n\nOm CSS koden är organiserad och optimerad, undviker du onödiga omladdningar (reflows) i webbläsaren. Detta kan förbättra prestandan avsevärt på komplexa sidor.\n\nAtt skriva effektiv JavaScript är avgörande för att undvika prestandaproblem, som att blockera rendering eller orsaka onödiga omberäkningar. Överanvänd inte JavaScript för saker som kan hanteras med CSS.\n\nMobila enheter har ofta begränsade resurser. Genom att optimera kod och använda responsiva tekniker ser du till att sidan fungerar bra på alla skärmar. Detta bidrar både till bättre prestanda och tillgänglighet.\n\nDet finns många verktyg för att testa både prestanda (som Lighthouse eller PageSpeed Insights) och tillgänglighet (som WAVE eller Axe). Testa din webbplats regelbundet för att identifiera problem innan de påverkar användare negativt.\n\n",
+    "language": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "beginner"
+  },
+  {
+    "id": 26,
+    "question": "1. Vad är API:er?",
+    "answer": "Ett API (Application Programming Interface) är ett gränssnitt som låter olika program eller delar av program kommunicera med varandra. Genom ett API kan man anropa funktionalitet utan att känna till alla detaljer. Inom webbutveckling kan API:er vara både server-baserade (t.ex. ett webb-API som klienten kontaktar) och inbyggda i webbläsaren.",
+    "language": [
+      "API"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 27,
+    "question": "Browser-API",
+    "answer": "Ett Browser-API (webbläsar-API) är ett API som webbläsaren ger tillgång till för att användas av JavaScript i webbsidor. Webbläsaren exponerar en mängd inbyggda API:er som utvecklare kan utnyttja, exempelvis DOM, fetch, geolocation, canvas. Browser-API:er gör det möjligt att exempelvis manipulera sidan, lagra data lokalt eller hämta data över nätverket, utan externa bibliotek.",
+    "language": [
+      "API",
+      "Browser API",
+      "DOM",
+      "Fetch API",
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 28,
+    "question": "LocalStorage",
+    "answer": "LocalStorage är en del av Web Storage API och används för att spara data lokalt i webbläsaren alltså på användarens dator. Vanliga användningsområden är att spara användarinställningar eller caching av data. Datan sparas i par, ex: “name” : “Melker”.",
+    "language": [
+      "API",
+      "LocalStorage",
+      "Web Storage API"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 29,
+    "question": "DOM",
+    "answer": "DOM står för Document Object Model. Det är en trädstruktur som representerar hela HTML-dokumentet. När sidan laddas skapar webbläsaren ett DOM-träd som du kan manipulera med JavaScript. Varje element motsvarar ett HTML-element, och via DOM kan man ändra elementens text, attribut, stilar, lägga till eller ta bort element. Med detta kan JavaScript uppdatera vad användaren ser utan att hela sidan laddas om.",
+    "language": [
+      "DOM",
+      "HTML",
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 30,
+    "question": "Fetch",
+    "answer": "Fetch är ett modernt Web API för att genomföra nätverksförfrågningar (t.ex. HTTP-anrop) från webbläsaren. fetch()-funktionen låter dig hämta resurser, exempelvis för att hämta data från en server och returnerar ett Promise som löser ut när ett svar mottagits. Det används för att hämta eller skicka data (GET/POST) till en server, ofta i JSON-format.",
+    "language": [
+      "API",
+      "Fetch API",
+      "Git",
+      "JSON"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 32,
+    "question": "ES6-objekt och klasser",
+    "answer": "ES6-objekt är vanliga JavaScript-objekt, men med förbättrad och förenklad syntax som kom med versionen ECMAScript 6. Man kan till exempel skriva kortare nyckel–värde-par, definiera metoder utan att använda ordet “function” och skapa dynamiska nyckelnamn med variabler. Det gör koden renare och mer läsbar.",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 33,
+    "question": "Arrayer och array-funktioner",
+    "answer": "En array är en lista med flera värden i en viss ordning. Man använder arrayer när man vill lagra flera saker i samma variabel, till exempel en lista med namn eller siffror.\nVanliga funktioner som används på arrayer är:\n\npush/pop – lägger till eller tar bort element i slutet av en array.\n\nshift/unshift – tar bort eller lägger till element i början av en array.\n\nforEach – itererar över alla element och utför en given funktion för varje (utan att skapa en ny array).\n\nmap – skapar en ny array genom att använda en funktion på varje element i orginalet.\n\nfilter – skapar en ny array med de element som uppfyller ett visst villkor.\n\nreduce – reducerar hela arrayen till ett enda värde genom att iterera och ackumulera ett resultat (användbar för summeringar, sammanställningar).",
+    "language": [],
+    "level": "intermediate"
+  },
+  {
+    "id": 34,
+    "question": "OOP i JavaScript",
+    "answer": "OOP betyder objektorienterad programmering. Det är en metod där man organiserar koden i objekt, som innehåller både data och funktioner som hör ihop.\n Inom JavaScript kan man skapa objekt och klasser för att återanvända kod, skapa struktur och hantera olika delar av ett program, till exempel genom att definiera egenskaper (som namn eller ålder) och beteenden (som att räkna ut ett värde eller visa information).",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 35,
+    "question": "Asynkront JavaScript och Promises",
+    "answer": "Asynkron JavaScript (Async JS) gör att man kan köra kod som tar tid, till exempel att hämta data från internet, utan att stoppa resten av programmet. Eftersom JavaScript är enkeltrådat behöver asynkrona operationer ske i bakgrunden. Promises infördes (i ES6) för att förbättra hanteringen av asynkrona flöden. Ett \"promise\" är ett löfte om att ett resultat kommer, antingen lyckas det och ger ett värde, eller så misslyckas det och ger ett error. Man använder promises för att hantera väntetid på ett tydligt och kontrollerat sätt. Asynkrona metoder är viktiga i frontend för att hämta data från servrar, läsa filer, vänta på användarinteraktioner med mera, utan att frysa användargränssnittet",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 36,
+    "question": "npm (Node Package Manager)",
+    "answer": "npm, eller Node Package Manager, är standardverktyget för att hantera och installera externa kodpaket i JavaScript-projekt. Det används framför allt i Node.js-baserade miljöer men är också viktigt i modern frontend-utveckling. Genom npm kan utvecklare installera färdiga bibliotek som till exempel ramverk som React. Varje projekt har vanligtvis en package.json-fil som listar alla beroenden och deras versioner. Det gör det enkelt att dela projektet med andra eller sätta upp det igen i en annan miljö. npm kan också användas för att köra kommandon, via så kallade \"scripts\", ex: npm run build i react.",
+    "language": [
+      "JSON",
+      "JavaScript",
+      "React"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 37,
+    "question": "3. Vad är TypeScript?",
+    "answer": "TypeScript är ett programmeringsspråk som utökar JavaScript med statisk typning, vilket innebär att man i förväg kan definiera vilken typ av data en variabel, funktion eller parameter ska ha. Det hjälper utvecklare att upptäcka fel under utveckling istället för vid körning. Utöver typningen introducerar TypeScript även mer avancerade språkfunktioner som gränssnitt, generiska typer och striktare klassbaserad programmering, vilket gör det mer strukturerat än ren JavaScript. Eftersom TypeScript måste översättas till JavaScript för att fungera i webbläsaren, används det tillsammans med en kompilator.",
+    "language": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 38,
+    "question": "4. Skillnader mellan TypeScript och JavaScript",
+    "answer": "Typning - I TypeScript kan du ange vilken typ en variabel eller funktion ska ha, till exempel att en variabel är ett tal eller en sträng. I JavaScript är alla typer dynamiska – det avgörs först när koden körs.\n\nFelkontroll vid kompilering - TypeScript kontrollerar koden innan den körs, och varnar för fel som saknade variabler, fel typer, eller felaktiga funktionsanrop. JavaScript hittar de flesta felen först när programmet körs i webbläsaren.\n\nStöd för fler moderna funktioner - TypeScript har stöd för moderna språkfunktioner som klasser, gränssnitt, generics och enums.\n\nKräver kompilering - TypeScript kan inte köras direkt i webbläsaren, det måste först översättas till JavaScript. Det kräver alltså ett verktyg som kallas för kompilator.",
+    "language": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 39,
+    "question": "5. Samarbete med Git och GitHub",
+    "answer": "Att samarbeta i Git och GitHub handlar om att flera utvecklare kan arbeta med samma kod på ett strukturerat och säkert sätt. Git är själva versionshanteringssystemet som spårar alla ändringar i projektet, medan GitHub är en plattform där man kan lagra koden online och samarbeta med andra. När man jobbar i team klonar man projektet från GitHub till sin dator och skapar en egen gren för att utveckla en funktion eller lösa ett problem. Ändringarna sparas som commits och skickas sedan upp till GitHub.\n\n\n\nDär öppnar man en pull request, som är en begäran om att få slå ihop sina ändringar med projektets huvudgren. Innan det sker kan andra i teamet granska koden och ge feedback. När allt ser bra ut görs en merge, och ändringarna blir en del av projektet. Det här arbetssättet gör det enkelt att samarbeta, hålla koll på vad som ändrats, och undvika konflikter i koden.",
+    "language": [
+      "Git",
+      "GitHub"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 40,
+    "question": "6. Vad är CSS-preprocessorer?",
+    "answer": "En CSS-preprocessor är ett verktyg som gör det möjligt att skriva CSS med fler funktioner än vad vanlig CSS erbjuder. Istället för att skriva direkt i ren CSS använder man ett separat programeringsspråk, som sedan kompileras till vanlig CSS som webbläsaren kan läsa.\n\nDet kanske mest kända exemplet är Sass. Dessa preprocessorer låter dig bland annat använda variabler, nästlad syntax, mixins (återanvändbara kodblock) och funktioner – vilket gör att din kod blir mer organiserad, lättare att underhålla och återanvända.",
+    "language": [
+      "CSS",
+      "CSS-preprocessor",
+      "Sass"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 41,
+    "question": "7. Fördelar och nackdelar med CSS-preprocessorer",
+    "answer": "Fördelar med CSS-preprocessorer:\n\nMöjlighet att använda variabler för färger, storlekar m.m.\n\nNästlad syntax ger bättre struktur och läsbarhet.\n\nMixins och funktioner minskar upprepning samt reducerar mängden kod.\n\nEnklare att dela upp stilkoden i flera filer.\n\nÖkad kontroll och flexibilitet vid större projekt.\n\nNackdelar med CSS-preprocessorer:\n\nKräver kompilering innan koden fungerar i webbläsaren.\n\nKan göra utvecklingsmiljön mer komplex, särskilt i små projekt.\n\nÖveranvändning av nästling kan skapa tung och svårunderhållen CSS.\n\nUtgör en extra tröskel för nya utvecklare.\n\nMindre relevant när modern CSS blir mer kraftfull.",
+    "language": [
+      "CSS",
+      "CSS-preprocessor"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 42,
+    "question": "8. Hur frontend-applikationer kommunicerar med backend",
+    "answer": "Frontend-applikationer kommunicerar med backend genom att skicka och hämta data via nätverksanrop, oftast med hjälp av HTTP och ett API. Det vanligaste sättet är att frontend skickar en begäran till backend, till exempel för att hämta användardata eller skicka formulärinformation, och backend svarar med data i ett format som frontend kan hantera, ex: JSON.\n\nExempelvis när en användare loggar in så skickar frontend användarnamn och lösenord till en inloggningsruta i backend via ett POST-anrop. Backend kontrollerar informationen, och om den är korrekt skickar den tillbaka ett svar, till exempel en inloggnings-token eller användarprofil.\n\nFrontend använder ofta JavaScript-metoder som fetch för att göra dessa anrop. Backend har i sin tur endpoints (t.ex. /users, /login) som tar emot, behandlar och svarar på dessa anrop. För att skydda kommunikationen används nästan alltid HTTPS och för säkra anrop krävs ofta autentisering.",
+    "language": [
+      "API",
+      "Fetch API",
+      "JSON",
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 44,
+    "question": "Ett objekts prototyp",
+    "answer": "I JavaScript har varje objekt en koppling till ett annat objekt som kallas dess prototyp. Det fungerar som ett slags \"reservlager\" av metoder och egenskaper. Om man försöker använda en metod eller egenskap som inte finns direkt på objektet, kommer JavaScript att leta efter den i objektets prototyp och vidare uppåt i prototypkedjan. Detta är på detta sätt JavaScript hanterar arv, objekt kan \"ärva\" funktionalitet genom kedjan utan att kopiera koden.",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 45,
+    "question": "Prototypbaserat arv i JavaScript",
+    "answer": "Prototype inheritance, eller prototypbaserat arv, är det arvssystem JavaScript använder. Det gör så objekt kan få tillgång till funktioner och egenskaper genom sin prototyp i stället för att allt definieras på varje enskilt objekt. Det gör det möjligt att dela logik mellan många objekt utan att duplicera kod. Man bygger alltså vidare på en gemensam grund, där alla instanser får tillgång till gemensamma metoder via kopplingen till prototypen.",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 46,
+    "question": "Konstruktorfunktion och new",
+    "answer": "En konstruktorfunktion är en funktion som används för att skapa objekt med en viss struktur. När man anropar funktionen med new, sker flera saker: ett nytt tomt objekt skapas, det kopplas automatiskt till konstruktorfunktionens prototyp, och this inuti funktionen pekar på det nya objektet. Funktionen kan då lägga till egenskaper, och till sist returneras objektet. new gör alltså att funktionen fungerar som en mall för att skapa flera likadana objekt.",
+    "language": [],
+    "level": "intermediate"
+  },
+  {
+    "id": 47,
+    "question": "this-referensen i JavaScript",
+    "answer": "I JavaScript syftar this på det objekt som en funktion anropas på men exakt vad det pekar på beror på sammanhanget. I en metod pekar this på objektet metoden tillhör. I en konstruktorfunktion (använd med new) pekar this på det nya objektet som håller på att skapas. Det är därför viktigt att förstå var och hur en funktion körs för att veta vad this betyder i just den situationen.",
+    "language": [
+      "JavaScript"
+    ],
+    "level": "intermediate"
+  },
+  {
+    "id": 48,
+    "question": "Delade metoder via prototypen",
+    "answer": "För att skapa metoder som inte dupliceras i varje instans, utan delas av alla objekt som skapats från samma konstruktor, placerar man metoderna på konstruktorfunktionens prototyp. Då pekar varje instans på samma metod via sin koppling till prototypen. Det här är en effektiv lösning eftersom det sparar minne och håller koden centraliserad och lättare att underhålla.",
+    "language": [],
+    "level": "intermediate"
+  }
+]
