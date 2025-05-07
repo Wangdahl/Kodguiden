@@ -54,7 +54,8 @@ export default function Framsida() {
                         disabled={pageIndex <= 0}
                         onClick={() => goToPage(pageIndex)}
                         className='
-                            hover:underline'
+                            hover:underline
+                        '
                     >
                         <i className="fa-solid fa-angle-left"></i>Previous
                     </button>
@@ -62,7 +63,8 @@ export default function Framsida() {
                         disabled={pageIndex >= totalPages - 1}
                         onClick={() => goToPage(pageIndex + 2)}
                         className='
-                        hover:underline'
+                            hover:underline
+                        '
                 >
                         Next<i className="fa-solid fa-angle-right"></i>
                     </button>

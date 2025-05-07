@@ -30,11 +30,10 @@ export default function Sidebar() {
                 ">
                     {items.map(item => (
                         <li key={item.id}className="
-                            hover:bg-green-300
-                            hover:text-green-900
-                            transition duration-500
+                            hover:border-b border-green-800
+                            hover:shadow-[0_6px_6px_-4px_rgba(0,0,0,0.1)]
+                            transition duration-200
                             pl-1
-                            rounded-md
                         ">
                             <NavLink 
                                 to={`/post/${item.id}`}
