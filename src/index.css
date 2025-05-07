@@ -17,7 +17,6 @@
 }
 
 @layer components {
-
     .nav-link-active {
         @apply underline 
     }

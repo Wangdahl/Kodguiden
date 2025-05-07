@@ -18,11 +18,11 @@ export default function TagList() {
             row-start-2 
             col-start-3
             mr-5
+            mt-10
         ">
             <section className="
                 flex
                 flex-col
-                m-2
                 mb-4
                 p-3
                 border
@@ -53,7 +53,6 @@ export default function TagList() {
             <section className="
                 flex
                 flex-col
-                m-2
                 p-3
                 border
                 border-green-800

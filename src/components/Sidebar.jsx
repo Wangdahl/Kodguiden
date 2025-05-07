@@ -10,24 +10,44 @@ export default function Sidebar() {
             row-start-2
             col-start-1
             m-5
-            overflow-y-auto
+            p-1
+            border
+            border-green-800
+            rounded-xl
+            shadow-lg
+            max-h-screen
+            overflow-hidden
+            mt-10
         ">
-            <ul className="
-                space-y-3
+            <div className="
+                overflow-y-auto
+                m-1
+                p-1
+                h-full
             ">
-                {items.map(item => (
-                    <li key={item.id}>
-                        <NavLink 
-                            to={`/post/${item.id}`}
-                            className={({isActive}) => 
-                                isActive ? 'active-side-link' : undefined
-                            }
-                        >
-                            {item.question}
-                        </NavLink>
-                    </li>
-                ))}
-            </ul>
+                <ul className="
+                    space-y-3
+                ">
+                    {items.map(item => (
+                        <li key={item.id}className="
+                            hover:bg-green-300
+                            hover:text-green-900
+                            transition duration-500
+                            pl-1
+                            rounded-md
+                        ">
+                            <NavLink 
+                                to={`/post/${item.id}`}
+                                className={({isActive}) => 
+                                    isActive ? 'active-side-link' : undefined
+                                }
+                            >
+                                {item.question}
+                            </NavLink>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </aside>
     )
 }

@@ -14,8 +14,12 @@ export default function Post() {
 
     return (
         <article className='post'>
-            <h2>{post.question}</h2>
-            <p>{post.answer}</p>
+            <h2 className='
+                mb-3
+            '>{post.question}</h2>
+            <p className='
+                mb-3
+            '>{post.answer}</p>
             <button
                 onClick={() => {
                     if (window.history.length > 2) {
@@ -24,7 +28,19 @@ export default function Post() {
                         navigate('/');
                     }
                 }}
-                className='back-btn'
+                className='back-btn
+                    bg-green-800
+                    text-green-50
+                    hover:border border-green-900
+                    w-10
+                    h-10
+                    m-2
+                    rounded-4xl
+                    hover:bg-green-300
+                    hover:text-green-900
+                    transition duration-300
+                    active:scale-105
+                '
             >
                 <i className="fa-solid fa-angle-left"></i>
             </button>

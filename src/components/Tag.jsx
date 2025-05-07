@@ -39,6 +39,10 @@ export default function Tag({ label, type, selected}) {
                 uppercase
                 font-semibold
                 text-sm
+                shadow-xl
+                transform
+                hover:scale-110
+                transition duration-200
             `}
             onClick={handleClick}
         >

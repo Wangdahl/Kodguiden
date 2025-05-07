@@ -6,10 +6,15 @@ export default function Header() {
             col-span-3
             flex
             justify-between
-            py-4
+            items-center
             px-12
+            shadow-md
+            box-border
+            text-green-900
         ">
-            <h1>Kodguiden</h1>
+            <h1 className="
+                font-semibold
+            ">Kodguiden</h1>
             <Navbar/>
         </header>
     );

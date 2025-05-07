@@ -45,17 +45,25 @@ export default function Framsida() {
                 {pageItems.map((item) => (
                     <ShortPost key={item.id} item={item} />
                 ))}
-                <div className='pagination-controls'>
+                <div className='pagination-controls
+                    flex
+                    justify-between
+                    m-1
+                '>
                     <button
                         disabled={pageIndex <= 0}
                         onClick={() => goToPage(pageIndex)}
+                        className='
+                            hover:underline'
                     >
                         <i className="fa-solid fa-angle-left"></i>Previous
                     </button>
                     <button
                         disabled={pageIndex >= totalPages - 1}
                         onClick={() => goToPage(pageIndex + 2)}
-                    >
+                        className='
+                        hover:underline'
+                >
                         Next<i className="fa-solid fa-angle-right"></i>
                     </button>
                 </div>
