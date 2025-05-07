@@ -14,28 +14,71 @@ export default function TagList() {
     const levels = Array.from(new Set(items.map((i) => i.level))).sort();
 
     return (
-        <aside className="tag-list">
-            <section>
-                <h2>Technologies</h2>
-                {languages.map((lang) => (
-                    <Tag
-                        key={lang}
-                        label={lang}
-                        type='lang'
-                        selected={selectedLangs.includes(lang)}
-                    />
-                ))}
+        <aside className="tag-list
+            row-start-2 
+            col-start-3
+            mr-5
+        ">
+            <section className="
+                flex
+                flex-col
+                m-2
+                mb-4
+                p-3
+                border
+                border-green-800
+                rounded-xl
+                shadow-lg
+            ">
+                <h2 className="
+                    pb-4
+                    pl-2
+                ">Teknologier</h2>
+                <div className="
+                    flex
+                    flex-wrap
+                    justify-center
+                    items-center
+                ">
+                    {languages.map((lang) => (
+                        <Tag
+                            key={lang}
+                            label={lang}
+                            type='lang'
+                            selected={selectedLangs.includes(lang)}
+                        />
+                    ))}
+                </div>
             </section>
-            <section>
-                <h2>Level</h2>
-                {levels.map((lvl) => (
-                    <Tag
-                        key={lvl}
-                        label={lvl}
-                        type='level'
-                        selected={selectedLevels.includes(lvl)}
-                    />
-                ))}
+            <section className="
+                flex
+                flex-col
+                m-2
+                p-3
+                border
+                border-green-800
+                rounded-xl
+                shadow-lg
+            ">
+                <h2 className="
+                    pb-4
+                    pl-2
+                ">Nivå</h2>
+                <div className="
+                    flex
+                    flex-wrap
+                    justify-center
+                    items-center
+                ">
+                    {levels.map((lvl) => (
+                        <Tag
+                            key={lvl}
+                            label={lvl}
+                            type='level'
+                            selected={selectedLevels.includes(lvl)}
+                        />
+                    ))}
+                </div>
             </section>
         </aside>
     )

@@ -1,1 +1,24 @@
 @import 'tailwindcss';
+
+@layer base {
+    h1 {
+        font-size: var(--text-2xl);
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: var(--text-xl);
+    }
+    h3 {
+        font-size: var(--text-lg);
+    }
+    button {
+        cursor: pointer;
+    }
+}
+
+@layer components {
+
+    .nav-link-active {
+        @apply underline 
+    }
+}

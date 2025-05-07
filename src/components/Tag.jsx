@@ -17,8 +17,9 @@ export default function Tag({ label, type, selected}) {
         if(values.includes(label)) {
             //Remove tag
             params.delete(type);
-            values.filter((v) => v !== label).forEachEach((v) =>
-                params.append(type, v));
+            values
+                .filter(v => v !== label)
+                .forEach(v => params.append(type, v));
         } else {
             //Add tag
             params.append(type, label);
@@ -30,7 +31,15 @@ export default function Tag({ label, type, selected}) {
 
     return(
         <button
-            className={`tag-button ${selected? 'selected' : ''}`}
+            className={`tag-button ${selected? 'selected bg-green-300 text-green-900' : 'bg-green-800 text-green-50'}
+                p-4
+                m-2
+                rounded-[2rem]
+                cursor-pointer
+                uppercase
+                font-semibold
+                text-sm
+            `}
             onClick={handleClick}
         >
             {label}

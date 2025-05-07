@@ -18,7 +18,7 @@ export default function Framsida() {
     //Filter items
     const filtered = items.filter((item) => {
         const matchesLangs = selectedLangs.every((lang) => 
-            item.langeuage.includes(lang)
+            item.language.includes(lang)
         );
         const matchesLevels = 
             selectedLevels.length === 0 ||
@@ -50,13 +50,13 @@ export default function Framsida() {
                         disabled={pageIndex <= 0}
                         onClick={() => goToPage(pageIndex)}
                     >
-                        <i class="fa-solid fa-angle-left"></i>Previous
+                        <i className="fa-solid fa-angle-left"></i>Previous
                     </button>
                     <button
                         disabled={pageIndex >= totalPages - 1}
                         onClick={() => goToPage(pageIndex + 2)}
                     >
-                        <i class="fa-solid fa-angle-left"></i>Next
+                        Next<i className="fa-solid fa-angle-right"></i>
                     </button>
                 </div>
             </div>

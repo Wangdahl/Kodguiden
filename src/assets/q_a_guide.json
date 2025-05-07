@@ -7,7 +7,7 @@
       "CSS",
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 2,
@@ -16,7 +16,7 @@
     "language": [
       "CSS"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@
       "JSON",
       "XML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 5,
@@ -48,7 +48,7 @@
     "language": [
       "Git"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "language": [
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 7,
@@ -66,7 +66,7 @@
     "language": [
       "DOM"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 8,
@@ -75,7 +75,7 @@
     "language": [
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 9,
@@ -86,21 +86,21 @@
       "CSS",
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 10,
     "question": "Vad finns det som kan påverka prestanda på webbplatser?",
     "answer": "De vanligaste sakerna som påverkar prestanda är saker som svarstid för servrar och storlekar på filer så som kod och bilder. För att reducera svarstid på internationella hemsidor kan det vara värt att använda sig av ett CDN (content delivery network) som drar ned den. När det gäller filstorlek till kod gäller det att strukturera den på ett smart sätt som minimerar mängden kod och ser till att den exekveras effektivt (reducerar mängd anrop m.m). För filer ska optimerade format användas i första hand ex. webp.",
     "language": [],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 11,
     "question": "Vad innebär responsiv design och mobilanpassning av webbplatser?",
     "answer": "Responsiv design handlar om att se till att webbplatser anpassar sig efter skärmstorlekar och mobilanpassning är en stor del av detta. Elementen på hemsidan kan omorganiseras och stylas om för att passa in bättre för olika stora skärmar. Fonter kan krympas eller ökas, navigationer kan döljas bakum “burger menus” och bildstorlekar ändras. Allt för att innehållet ska kunna konsumeras på ett snyggt sätt med olika enheter och ge en god användarupplevelse. Eftersom mobiler allt mer blir det primära sättet personer navigerar på internet så blir det allt vanligare med s.k mobilefirst, där layout i förstahand konstrueras för mobiler.",
     "language": [],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 12,
@@ -109,7 +109,7 @@
     "language": [
       "Git"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 14,
@@ -118,7 +118,7 @@
     "language": [
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 15,
@@ -128,7 +128,7 @@
       "CSS",
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 16,
@@ -139,14 +139,14 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 17,
     "question": "Hur fungerar en webbläsare?",
     "answer": "En webbläsare (som ex. Chrome) är ett program som tolkar och visar innehållet på webben. Att förstå den gör det lättare att förstå hur nätet fungerar.",
     "language": [],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 18,
@@ -157,7 +157,7 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 19,
@@ -169,7 +169,7 @@
       "Git",
       "HTML"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 20,
@@ -182,7 +182,7 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 21,
@@ -193,14 +193,14 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 23,
     "question": "Tillgänglighet",
     "answer": "Webben ska vara tillgänglig för alla och det innebär att personer med olika typer av funktionsnedsättningar ska kunna navigera och interagera med en webbsida smidigt. Detta kan underlättas med hjälp av följande.\n\nGenom att använda semantiska taggar (t.ex. <nav>, <header>, <main>, <footer>) kan skärmläsare förstå strukturen på sidan. Avgörande för personer med synnedsättning.\n\nVarje bild bör ha en alt-text som beskriver den och gör det möjligt för skärmläsare att berätta för användaren vad bilden innehåller.\n\nSe till att text och bakgrunder har tillräckligt hög kontrast, så att personer med nedsatt färgseende eller synproblem lätt kan läsa innehållet.\n\nWebbplatser bör vara utformade så att de kan navigeras med tangentbordet, inte bara med musen. Detta är viktigt för användare som inte kan använda en mus.\n\nGenom att använda så kallade ARIA roller kan man ge information om hur olika element ska tolkas av hjälpmedel, ex. vilka delar som är interaktiva vs. dekorativa.",
     "language": [],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 24,
@@ -209,7 +209,7 @@
     "language": [
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 25,
@@ -220,7 +220,7 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "beginner"
+    "level": "nybörjare"
   },
   {
     "id": 26,
@@ -229,7 +229,8 @@
     "language": [
       "API"
     ],
-    "level": "intermediate"
+    "level": "medel"
+
   },
   {
     "id": 27,
@@ -242,7 +243,7 @@
       "Fetch API",
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 28,
@@ -253,7 +254,7 @@
       "LocalStorage",
       "Web Storage API"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 29,
@@ -264,7 +265,7 @@
       "HTML",
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 30,
@@ -276,7 +277,7 @@
       "Git",
       "JSON"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 32,
@@ -285,14 +286,14 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 33,
     "question": "Arrayer och array-funktioner",
     "answer": "En array är en lista med flera värden i en viss ordning. Man använder arrayer när man vill lagra flera saker i samma variabel, till exempel en lista med namn eller siffror.\nVanliga funktioner som används på arrayer är:\n\npush/pop – lägger till eller tar bort element i slutet av en array.\n\nshift/unshift – tar bort eller lägger till element i början av en array.\n\nforEach – itererar över alla element och utför en given funktion för varje (utan att skapa en ny array).\n\nmap – skapar en ny array genom att använda en funktion på varje element i orginalet.\n\nfilter – skapar en ny array med de element som uppfyller ett visst villkor.\n\nreduce – reducerar hela arrayen till ett enda värde genom att iterera och ackumulera ett resultat (användbar för summeringar, sammanställningar).",
     "language": [],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 34,
@@ -301,7 +302,7 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 35,
@@ -310,7 +311,7 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 36,
@@ -321,7 +322,7 @@
       "JavaScript",
       "React"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 37,
@@ -331,7 +332,7 @@
       "JavaScript",
       "TypeScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 38,
@@ -341,7 +342,7 @@
       "JavaScript",
       "TypeScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 39,
@@ -351,7 +352,7 @@
       "Git",
       "GitHub"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 40,
@@ -362,7 +363,7 @@
       "CSS-preprocessor",
       "Sass"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 41,
@@ -372,7 +373,7 @@
       "CSS",
       "CSS-preprocessor"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 42,
@@ -384,7 +385,7 @@
       "JSON",
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 44,
@@ -393,7 +394,7 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 45,
@@ -402,14 +403,14 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 46,
     "question": "Konstruktorfunktion och new",
     "answer": "En konstruktorfunktion är en funktion som används för att skapa objekt med en viss struktur. När man anropar funktionen med new, sker flera saker: ett nytt tomt objekt skapas, det kopplas automatiskt till konstruktorfunktionens prototyp, och this inuti funktionen pekar på det nya objektet. Funktionen kan då lägga till egenskaper, och till sist returneras objektet. new gör alltså att funktionen fungerar som en mall för att skapa flera likadana objekt.",
     "language": [],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 47,
@@ -418,13 +419,13 @@
     "language": [
       "JavaScript"
     ],
-    "level": "intermediate"
+    "level": "medel"
   },
   {
     "id": 48,
     "question": "Delade metoder via prototypen",
     "answer": "För att skapa metoder som inte dupliceras i varje instans, utan delas av alla objekt som skapats från samma konstruktor, placerar man metoderna på konstruktorfunktionens prototyp. Då pekar varje instans på samma metod via sin koppling till prototypen. Det här är en effektiv lösning eftersom det sparar minne och håller koden centraliserad och lättare att underhålla.",
     "language": [],
-    "level": "intermediate"
+    "level": "medel"
   }
 ]

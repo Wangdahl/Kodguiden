@@ -1,9 +1,13 @@
 import { NavLink } from "react-router-dom";
+import '../index.css'
 
 export default function Navbar () {
     return (
         <nav className="main-nav">
-            <ul className="nav-ul">
+            <ul className="nav-ul
+                flex
+                space-x-4
+            ">
                 <li className="nav-li">
                     <NavLink
                         to="/"
