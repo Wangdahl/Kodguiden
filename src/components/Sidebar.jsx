@@ -4,21 +4,19 @@ import items from '../assets/q_a_guide.json'
 //Adjust EXCERPT_LENGTH to change how many characters are showin in the preview
 const LINK_LENGTH = 25;
 
-export default function Sidebar() {
+export default function Sidebar( ) {
     return (
-        <aside className="
-            row-start-2
-            col-start-1
-            m-5
-            p-1
-            border
-            border-green-800
-            rounded-xl
-            shadow-lg
-            max-h-screen
-            overflow-hidden
-            mt-10
-        ">
+        <aside className='
+            hidden
+            lg:w-[250px]
+            lg:row-start-2 
+            lg:col-start-1 m-5 p-1 border border-green-800 rounded-xl shadow-lg
+            lg:relative 
+            lg:translate-x-0 
+            lg:inset-auto 
+            lg:m-5
+            lg:overflow-hidden
+        '>
             <div className="
                 overflow-y-auto
                 m-1
