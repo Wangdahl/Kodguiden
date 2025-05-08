@@ -62,7 +62,7 @@ function App() {
           fixed inset-y-0 right-0 w-80 bg-transparent z-40 
           transform transition-transform duration-300
           ${isFiltersOpen ? 'translate-x-0' : 'translate-x-[110%]'}
-          lg:relative lg:translate-x-0 lg:inset-auto lg:mr-5 lg:mt-10
+          lg:relative lg:translate-x-0 lg:inset-auto lg:mr-5 lg:mt-5
         `}
       />
       {/* Overlay to close drawers (mobile only) */}

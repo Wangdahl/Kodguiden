@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Navbar from "./Navbar";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <header className="
+            bg-white
             col-span-3
             flex
             justify-between
@@ -17,7 +19,11 @@ export default function Header() {
         ">
             <h1 className="
                 font-semibold
-            ">Kodguiden</h1>
+            "><NavLink
+                to='/'
+            >
+                Kodguiden
+            </NavLink></h1>
             <Navbar 
                 isOpen={menuOpen}
                 onToggleMenu={() => setMenuOpen(prev => !prev)}

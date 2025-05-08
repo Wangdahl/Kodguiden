@@ -7,6 +7,7 @@ const LINK_LENGTH = 25;
 export default function Sidebar( ) {
     return (
         <aside className='
+            bg-white
             hidden
             lg:block
             lg:w-[250px]

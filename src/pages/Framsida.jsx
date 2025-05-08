@@ -3,7 +3,7 @@ import ShortPost from '../components/ShortPost'
 import items from '../assets/q_a_guide.json'
 
 //Amount of Post excerpts shown
-const PAGE_SIZE = 5;
+const PAGE_SIZE = 4;
 
 export default function Framsida() {
     const [searchParams] = useSearchParams();
@@ -48,7 +48,7 @@ export default function Framsida() {
                 <div className='pagination-controls
                     flex
                     justify-between
-                    m-1
+                    m-2
                 '>
                     <button
                         disabled={pageIndex <= 0}
@@ -57,7 +57,7 @@ export default function Framsida() {
                             hover:underline
                         '
                     >
-                        <i className="fa-solid fa-angle-left"></i>Previous
+                        <i className="fa-solid fa-angle-left mr-2"></i>Previous
                     </button>
                     <button
                         disabled={pageIndex >= totalPages - 1}
@@ -66,7 +66,7 @@ export default function Framsida() {
                             hover:underline
                         '
                 >
-                        Next<i className="fa-solid fa-angle-right"></i>
+                        Next<i className="fa-solid fa-angle-right ml-2"></i>
                     </button>
                 </div>
             </div>

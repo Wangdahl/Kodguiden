@@ -6,14 +6,15 @@ export default function OmOss() {
         <section className="about-us">
             <h2 className='
                 mb-3
-            '>Om oss</h2>
+            '>Kort om kodguiden</h2>
             <h3 className='
                 mb-1
             '>Projektets syfte</h3>
             <p className='
                 mb-3
             '>
-                Målet med projektet är att erbjuda en dynamisk plattform där användare kan:
+                Kodguiden är ett övningsprojekt vars mål är att skapa en dynamisk plattform som kan användas för Q&A eller som dokumentation. 
+                Med kodguiden kan användare:
             </p>
                 <ul className='
                 mb-2
@@ -33,7 +34,7 @@ export default function OmOss() {
                 mb-1
             '>Kom igång</h3>
             <p>
-                Klona vårt repo, installera beroenden och kör <code>npm start</code>. Välkommen att utforska och bidra!
+                Klona repo, installera beroenden och kör: <br /><code className="m-2">npm start</code> <br /> Välkommen att utforska och bidra!
             </p>
             </section>
     )

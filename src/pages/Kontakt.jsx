@@ -11,14 +11,14 @@ export default function Kontakt() {
             <p className='
                 mb-1
             '>
-                Har du frågor, förslag eller vill bidra till projektet? Tveka inte att höra av dig via GitHub!
+                Har du frågor, förslag eller vill bidra till projektet? Hör av dig via GitHub:
             </p>
             <ul className='
+                list-disc list-inside
                 mb-3
             '>
                 <li className='
-                text-sm
-                text-green-800
+                text-green-900
                 underline
             '>
                     <a href="https://github.com/Wangdahl" target="_blank" rel="noopener">
@@ -26,8 +26,7 @@ export default function Kontakt() {
                     </a>
                 </li>
                 <li className='
-                text-sm
-                text-green-800
+                text-green-900
                 underline
             '>
                     <a href="https://github.com/Wangdahl/Kodguiden" target="_blank" rel="noopener">

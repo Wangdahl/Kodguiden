@@ -10,6 +10,7 @@ export default function Footer() {
             lg:items-center
             py-4
             px-12
+            overflow-hidden
         ">
             <span>Kodguiden</span>
         </footer>

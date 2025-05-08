@@ -20,6 +20,41 @@ export default function Post() {
             <p className='
                 mb-3
             '>{post.answer}</p>
+            <div className='
+                mb-3
+                flex justify-end
+            '>
+            {post.language.map((lang) => (
+                <span key={lang} className="
+                    text-xs
+                    font-semibold
+                    py-0.5
+                    px-2
+                    uppercase
+                    rounded-2xl
+                    bg-green-800
+                    text-green-50
+                    mr-2
+
+                ">
+                    {lang}
+                </span>
+            ))}
+            <span className="
+                    text-xs
+                    font-semibold
+                    py-0.5
+                    px-2
+                    uppercase
+                    rounded-2xl
+                    bg-green-800
+                    text-green-50
+                    mr-2
+
+                ">
+                    {post.level}
+            </span>
+            </div>
             <button
                 onClick={() => {
                     if (window.history.length > 2) {

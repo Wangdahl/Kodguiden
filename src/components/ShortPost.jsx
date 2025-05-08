@@ -18,8 +18,10 @@ export default function ShortPost({ item }) {
             block
             border-b border-green-800
             pb-2
-            mb-6
+            pt-6
+            pl-2
             hover:shadow-md
+            hover:bg-white
             transition-shadow duration-200 ease-in-out
             
         '>
@@ -31,7 +33,7 @@ export default function ShortPost({ item }) {
                 m-1
             ">
                 {language.map((lang) => (
-                    <span key={lang} className="tag-small
+                    <span key={lang} className="
                     text-xs
                     font-semibold
                     py-0.5
@@ -45,7 +47,7 @@ export default function ShortPost({ item }) {
                         {lang}
                     </span>
                 ))}
-                <span className="tag-small
+                <span className="
                     text-xs
                     font-semibold
                     py-0.5

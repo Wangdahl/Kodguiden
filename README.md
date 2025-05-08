@@ -1,6 +1,6 @@
 # React Q&A Guide
 
-A React application that displays a Q&A style guide covering HTML, CSS, JavaScript, React, and TypeScript. Users can browse, filter, and paginate through questions, and view individual posts.
+A React application that displays a Q&A / documentation style guide covering HTML, CSS, JavaScript, React, and TypeScript. Users can browse, filter, and paginate through questions, and view individual posts.
 
 ## Features
 
