@@ -8,6 +8,7 @@ export default function Sidebar( ) {
     return (
         <aside className='
             hidden
+            lg:block
             lg:w-[250px]
             lg:row-start-2 
             lg:col-start-1 m-5 p-1 border border-green-800 rounded-xl shadow-lg

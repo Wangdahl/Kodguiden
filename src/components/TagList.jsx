@@ -18,9 +18,9 @@ export default function TagList({ isOpen, onClose, className = '' }) {
             {/* Close button inside drawer (mobile only) */}
             {isOpen && (
                 <button
-                onClick={onClose}
-                aria-label="Stäng filter"
-                className="lg:hidden absolute top-2 right-4 p-2 text-green-800 text-3xl"
+                    onClick={onClose}
+                    aria-label="Stäng filter"
+                    className="lg:hidden absolute top-2 right-4 p-2 text-green-800 text-3xl"
                 >
                 ×
                 </button>

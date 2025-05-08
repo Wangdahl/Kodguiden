@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import Navbar from "./Navbar";
 
 export default function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
         <header className="
             col-span-3
@@ -16,7 +18,10 @@ export default function Header() {
             <h1 className="
                 font-semibold
             ">Kodguiden</h1>
-            <Navbar/>
+            <Navbar 
+                isOpen={menuOpen}
+                onToggleMenu={() => setMenuOpen(prev => !prev)}
+            />
         </header>
     );
 }

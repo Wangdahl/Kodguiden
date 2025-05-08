@@ -31,10 +31,11 @@ function App() {
           bg-green-800 
           text-green-50
           leading-tight
-          rounded-l-xl
+          h-25
+          rounded-l-full
         '>
           <i className={`fa-solid ${isFiltersOpen ? 'fa-xmark' : 'fa-angle-left'}`}></i>
-          <span className='inline-block uppercase'>F<br></br>i<br></br>l<br></br>t<br></br>e<br></br>r</span>
+          <i class="fa-solid fa-filter"></i>
       </button>
       <Sidebar />
       <main className='
@@ -55,7 +56,7 @@ function App() {
         isOpen={isFiltersOpen}
         onClose={() => setFiltersOpen(false)}
         className={`
-          tag-list lg:row-start-2 lg:col-start-3 mr-5 mt-10 max-w-[350px]
+          lg:row-start-2 lg:col-start-3 mr-5 mt-10 max-w-[350px]
           fixed inset-y-0 right-0 w-80 bg-transparent z-40 
           transform transition-transform duration-300
           ${isFiltersOpen ? 'translate-x-0' : 'translate-x-[110%]'}
