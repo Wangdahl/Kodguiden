@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useLocation, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 import Framsida from './pages/Framsida'
@@ -11,11 +11,13 @@ import Footer from './components/Footer'
 
 function App() {
   const [isFiltersOpen, setFiltersOpen] = useState(false)
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   return (
-    <BrowserRouter>
+    <>
       <Header/>
-      <button
+      {(isHome && <button
         onClick={() => setFiltersOpen(prev => !prev)}
         className='
           flex
@@ -35,8 +37,8 @@ function App() {
           rounded-l-full
         '>
           <i className={`fa-solid ${isFiltersOpen ? 'fa-xmark' : 'fa-angle-left'}`}></i>
-          <i class="fa-solid fa-filter"></i>
-      </button>
+          <i className="fa-solid fa-filter"></i>
+      </button>)}
       <Sidebar />
       <main className='
         lg:row-start-2
@@ -73,7 +75,7 @@ function App() {
         />
       )}
       <Footer />
-    </BrowserRouter>
+    </>
   )
 }
 
