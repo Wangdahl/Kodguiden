@@ -4,7 +4,7 @@ import items from '../assets/q_a_guide.json'
 
 //A list of tags used to filter the post excerpts on front page
 
-export default function TagList() {
+export default function TagList({ isOpen, onClose, className = '' }) {
     const [searchParams] = useSearchParams();
     const selectedLangs = searchParams.getAll('lang');
     const selectedLevels = searchParams.getAll('level');
@@ -14,13 +14,19 @@ export default function TagList() {
     const levels = Array.from(new Set(items.map((i) => i.level))).sort();
 
     return (
-        <aside className="tag-list
-            row-start-2 
-            col-start-3
-            mr-5
-            mt-10
-        ">
+        <aside className={className}>
+            {/* Close button inside drawer (mobile only) */}
+            {isOpen && (
+                <button
+                    onClick={onClose}
+                    aria-label="Stäng filter"
+                    className="lg:hidden absolute top-2 right-4 p-2 text-green-800 text-3xl"
+                >
+                ×
+                </button>
+            )}
             <section className="
+                bg-white
                 flex
                 flex-col
                 mb-4
@@ -51,6 +57,7 @@ export default function TagList() {
                 </div>
             </section>
             <section className="
+                bg-white
                 flex
                 flex-col
                 p-3

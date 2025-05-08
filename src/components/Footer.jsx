@@ -3,13 +3,14 @@
 export default function Footer() {
     return (
         <footer className="
-            col-span-3
-            flex
-            justify-between
-            items-center
+            hidden
+            lg:col-span-3
+            lg:flex
+            lg:justify-between
+            lg:items-center
             py-4
             px-12
-            shadow-lg
+            overflow-hidden
         ">
             <span>Kodguiden</span>
         </footer>
